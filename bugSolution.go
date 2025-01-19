@@ -1,0 +1,1 @@
+func myFunc(a []int) { b := make([]int, len(a)) copy(b, a) for i := range b { a = append(a, i) } }
